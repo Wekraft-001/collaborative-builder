@@ -17,21 +17,21 @@
     --popover: 0 0% 100%;
     --popover-foreground: 20 14% 15%;
 
-    /* Primary - warm orange/amber for hope and energy */
-    --primary: 32 95% 55%;
+    /* Primary - Brand blue-teal for trust and professionalism */
+    --primary: 195 54% 35%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 35 100% 65%;
-    --primary-dark: 28 85% 45%;
+    --primary-light: 195 54% 45%;
+    --primary-dark: 195 54% 25%;
 
-    /* Secondary - deep teal for trust and growth */
-    --secondary: 174 65% 25%;
-    --secondary-foreground: 0 0% 100%;
-    --secondary-light: 174 55% 35%;
+    /* Secondary - Brand warm orange for energy and call-to-action */
+    --secondary: 37 94% 63%;
+    --secondary-foreground: 20 14% 15%;
+    --secondary-light: 37 94% 73%;
 
-    /* Accent - vibrant coral for CTAs */
-    --accent: 12 88% 65%;
+    /* Accent - complementary teal for highlights */
+    --accent: 195 54% 55%;
     --accent-foreground: 0 0% 100%;
-    --accent-light: 12 88% 75%;
+    --accent-light: 195 54% 65%;
 
     /* Muted colors */
     --muted: 30 30% 95%;
@@ -50,20 +50,20 @@
     /* Borders and inputs */
     --border: 30 30% 88%;
     --input: 30 30% 95%;
-    --ring: 32 95% 55%;
+    --ring: 195 54% 35%;
 
     --radius: 0.75rem;
 
     /* Gradients for impact */
-    --gradient-hero: linear-gradient(135deg, hsl(32 95% 55%), hsl(12 88% 65%), hsl(174 65% 25%));
-    --gradient-warm: linear-gradient(90deg, hsl(35 100% 65%), hsl(32 95% 55%));
-    --gradient-cool: linear-gradient(135deg, hsl(174 55% 35%), hsl(174 65% 25%));
+    --gradient-hero: linear-gradient(135deg, hsl(195 54% 35%), hsl(37 94% 63%), hsl(195 54% 25%));
+    --gradient-warm: linear-gradient(90deg, hsl(37 94% 73%), hsl(37 94% 63%));
+    --gradient-cool: linear-gradient(135deg, hsl(195 54% 45%), hsl(195 54% 35%));
     --gradient-subtle: linear-gradient(180deg, hsl(42 100% 98%), hsl(30 30% 95%));
 
-    /* Shadows with warmth */
-    --shadow-warm: 0 10px 30px -5px hsl(32 95% 55% / 0.3);
+    /* Shadows with brand colors */
+    --shadow-warm: 0 10px 30px -5px hsl(37 94% 63% / 0.3);
     --shadow-soft: 0 4px 20px -2px hsl(20 14% 15% / 0.1);
-    --shadow-elevated: 0 20px 40px -10px hsl(32 95% 55% / 0.2);
+    --shadow-elevated: 0 20px 40px -10px hsl(195 54% 35% / 0.2);
 
     /* Animation timing */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -97,18 +97,18 @@
     --popover: 20 15% 12%;
     --popover-foreground: 42 100% 95%;
 
-    --primary: 32 95% 55%;
-    --primary-foreground: 20 20% 8%;
-    --primary-light: 35 100% 65%;
-    --primary-dark: 28 85% 45%;
+    --primary: 195 54% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 195 54% 45%;
+    --primary-dark: 195 54% 25%;
 
-    --secondary: 174 65% 35%;
+    --secondary: 37 94% 63%;
     --secondary-foreground: 20 20% 8%;
-    --secondary-light: 174 55% 45%;
+    --secondary-light: 37 94% 73%;
 
-    --accent: 12 88% 65%;
-    --accent-foreground: 20 20% 8%;
-    --accent-light: 12 88% 75%;
+    --accent: 195 54% 55%;
+    --accent-foreground: 0 0% 100%;
+    --accent-light: 195 54% 65%;
 
     --muted: 20 15% 15%;
     --muted-foreground: 30 8% 65%;
@@ -124,18 +124,18 @@
 
     --border: 20 15% 20%;
     --input: 20 15% 15%;
-    --ring: 32 95% 55%;
+    --ring: 195 54% 35%;
 
     /* Dark mode gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(32 95% 45%), hsl(12 88% 55%), hsl(174 65% 35%));
-    --gradient-warm: linear-gradient(90deg, hsl(35 100% 55%), hsl(32 95% 45%));
-    --gradient-cool: linear-gradient(135deg, hsl(174 55% 45%), hsl(174 65% 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(195 54% 35%), hsl(37 94% 63%), hsl(195 54% 25%));
+    --gradient-warm: linear-gradient(90deg, hsl(37 94% 73%), hsl(37 94% 63%));
+    --gradient-cool: linear-gradient(135deg, hsl(195 54% 45%), hsl(195 54% 35%));
     --gradient-subtle: linear-gradient(180deg, hsl(20 20% 8%), hsl(20 15% 12%));
 
     /* Dark shadows */
-    --shadow-warm: 0 10px 30px -5px hsl(32 95% 25% / 0.5);
+    --shadow-warm: 0 10px 30px -5px hsl(37 94% 43% / 0.5);
     --shadow-soft: 0 4px 20px -2px hsl(0 0% 0% / 0.3);
-    --shadow-elevated: 0 20px 40px -10px hsl(32 95% 25% / 0.4);
+    --shadow-elevated: 0 20px 40px -10px hsl(195 54% 25% / 0.4);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -153,8 +153,14 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-background text-foreground;
+    font-family: 'Cocon', sans-serif;
     background: var(--gradient-subtle);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nexaround', sans-serif;
+    font-weight: 700;
   }
 
   /* Custom scrollbar */

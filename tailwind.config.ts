@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'cocon': ['Cocon', 'sans-serif'],
+				'nexaround': ['Nexaround', 'sans-serif'],
+				'sans': ['Cocon', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
