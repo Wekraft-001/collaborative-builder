@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* SkillSeed CSR Design System - Warm, inspiring colors for digital divide bridging */
+/* Custom fonts */
+@font-face {
+  font-family: "Nexaround";
+  src: url("./assets/fonts/nexaround-glow.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "Cocon";
+  src: url("./assets/fonts/CoconRegularFont.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SkillSeed CSR Design System - Warm, inspiring colors for digital divide bridging */
 @layer base {
   :root {
     /* Base background and text */
@@ -40,7 +54,7 @@
     /* Support colors */
     --success: 142 76% 36%;
     --success-foreground: 0 0% 100%;
-    
+
     --warning: 45 93% 58%;
     --warning-foreground: 20 14% 15%;
 
@@ -55,10 +69,23 @@
     --radius: 0.75rem;
 
     /* Gradients for impact */
-    --gradient-hero: linear-gradient(135deg, hsl(195 54% 35%), hsl(37 94% 63%), hsl(195 54% 25%));
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(195 54% 35%),
+      hsl(37 94% 63%),
+      hsl(195 54% 25%)
+    );
     --gradient-warm: linear-gradient(90deg, hsl(37 94% 73%), hsl(37 94% 63%));
-    --gradient-cool: linear-gradient(135deg, hsl(195 54% 45%), hsl(195 54% 35%));
-    --gradient-subtle: linear-gradient(180deg, hsl(42 100% 98%), hsl(30 30% 95%));
+    --gradient-cool: linear-gradient(
+      135deg,
+      hsl(195 54% 45%),
+      hsl(195 54% 35%)
+    );
+    --gradient-subtle: linear-gradient(
+      180deg,
+      hsl(42 100% 98%),
+      hsl(30 30% 95%)
+    );
 
     /* Shadows with brand colors */
     --shadow-warm: 0 10px 30px -5px hsl(37 94% 63% / 0.3);
@@ -127,9 +154,18 @@
     --ring: 195 54% 35%;
 
     /* Dark mode gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(195 54% 35%), hsl(37 94% 63%), hsl(195 54% 25%));
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(195 54% 35%),
+      hsl(37 94% 63%),
+      hsl(195 54% 25%)
+    );
     --gradient-warm: linear-gradient(90deg, hsl(37 94% 73%), hsl(37 94% 63%));
-    --gradient-cool: linear-gradient(135deg, hsl(195 54% 45%), hsl(195 54% 35%));
+    --gradient-cool: linear-gradient(
+      135deg,
+      hsl(195 54% 45%),
+      hsl(195 54% 35%)
+    );
     --gradient-subtle: linear-gradient(180deg, hsl(20 20% 8%), hsl(20 15% 12%));
 
     /* Dark shadows */
@@ -154,12 +190,17 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Cocon', sans-serif;
+    font-family: "Cocon", sans-serif;
     background: var(--gradient-subtle);
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nexaround', sans-serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Nexaround", sans-serif;
     font-weight: 700;
   }
 
@@ -217,13 +258,18 @@
   }
 
   .cta-glow::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.3),
+      transparent
+    );
     transition: left 0.6s;
   }
 

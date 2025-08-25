@@ -128,7 +128,7 @@ export const HowToHelp = () => {
               Every action you take creates a ripple of hope across Africa. Start your impact journey today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20">
+              <Button variant="outline" size="lg" className="hidden bg-white/10 border-white/30 text-white hover:bg-white/20">
                 Learn More About Our Impact
               </Button>
               <Button variant="impact" size="lg" className="bg-white text-primary hover:bg-white/90">
