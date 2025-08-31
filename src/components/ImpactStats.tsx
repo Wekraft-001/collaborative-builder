@@ -33,9 +33,9 @@ export const ImpactStats = () => {
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
             Your Impact in 
-            <span className="gradient-text"> Numbers</span>
+            <span className="text-secondary"> Numbers</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             See how your contribution creates ripples of change across communities
